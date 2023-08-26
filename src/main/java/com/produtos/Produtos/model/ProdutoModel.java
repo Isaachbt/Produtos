@@ -27,6 +27,6 @@ public class ProdutoModel extends RepresentationModel<ProdutoModel> implements S
     private UUID idProduto;
     private String nome;
     private String dataValidade;
-    private BigDecimal value;
+    private BigDecimal valor;
     private int quantidade;
 }
