@@ -14,8 +14,8 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.UUID;
 
-@Entity
-@Table(name = "TB_PRODUTOS")
+@Entity(name = "produto")
+@Table(name = "produto")
 @Getter
 @Setter
 public class ProdutoModel extends RepresentationModel<ProdutoModel> implements Serializable {
